@@ -1,7 +1,8 @@
 {
   "$schema": "https://docs.renovatebot.com/renovate-schema.json",
   "extends": [
-    "config:best-practices"
+    "config:best-practices",
+    "schedule:weekly"
   ],
   "dependencyDashboard": true,
   "packageRules": [
@@ -19,5 +20,6 @@
       "automerge": true
     }
   ],
+  "timezone": "Asia/Kolkata"
   "rebaseWhen": "conflicted"
 }
